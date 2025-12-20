@@ -117,7 +117,6 @@ class LibrarySimulator:
 
             elif action == 'update_indexes':
                 if hasattr(library.indexes, 'update_indexes'):
-                    print(f"Обновление индексов...")
                     library.indexes.update_indexes()
                     print(f"Индексы обновлены. Всего книг в индексах: {len(library.indexes)}")
                 else:
