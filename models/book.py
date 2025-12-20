@@ -10,7 +10,7 @@ class Book:
         return f"Book('{self.title}', '{self.author}', {self.year})"
     
     def __str__(self):
-        return f"Book('{self.title}' '{self.author}' {self.year})"
+        return f"Книга: {self.title}, автор: {self.author}"
     
     def __eq__(self, other):
         if isinstance(other, Book):
