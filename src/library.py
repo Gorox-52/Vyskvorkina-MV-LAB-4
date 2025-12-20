@@ -1,5 +1,5 @@
-from .book import Book
-from .collection import BookCollection, IndexDict
+from book import Book
+from collection import BookCollection, IndexDict
 
 class Library:
     def __init__(self):

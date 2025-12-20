@@ -1,6 +1,6 @@
-from models.book import Book
+from book import Book
 import random
-from models.library import Library
+from library import Library
 
 class LibrarySimulator:
     def __init__(self):

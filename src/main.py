@@ -6,7 +6,7 @@
 """
 
 import sys
-from simulation.simulation import LibrarySimulator
+from simulation import LibrarySimulator
 
 def main():
     

@@ -15,15 +15,13 @@
 ## Структура проекта
 ```
 LAB_4_PYTHONCHIK/
-├── models/
+├── src/
 │   ├── __init__.py
 │   ├── book.py              # Класс Book
 │   ├── collection.py        # Пользовательские коллекции
 │   ├── library.py          # Класс Library
-│   └── simulation/
-│       ├── __init__.py
-│       └── simulation.py   # Симулятор событий
-├── main.py                  # Главный файл запуска
+│   ├── simulation.py   # Симулятор событий
+│   └── main.py                  # Главный файл запуска
 ├── README.md               # Документация
 └── .gitignore              # Игнорируемые файлы
 ```
